@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/jobber/Projects/MiniRed/build/cmake_install.cmake"
+		"/home/jobber/Projects/MiniRedis/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jobber/Projects/MiniRed
+CMAKE_SOURCE_DIR = /home/jobber/Projects/MiniRedis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jobber/Projects/MiniRed/build
+CMAKE_BINARY_DIR = /home/jobber/Projects/MiniRedis/build
 
 # Utility rule file for ContinuousBuild.
 
@@ -85,6 +85,6 @@ CMakeFiles/ContinuousBuild.dir/clean:
 .PHONY : CMakeFiles/ContinuousBuild.dir/clean
 
 CMakeFiles/ContinuousBuild.dir/depend:
-	cd /home/jobber/Projects/MiniRed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jobber/Projects/MiniRed /home/jobber/Projects/MiniRed /home/jobber/Projects/MiniRed/build /home/jobber/Projects/MiniRed/build /home/jobber/Projects/MiniRed/build/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake "--color=$(COLOR)" ContinuousBuild
+	cd /home/jobber/Projects/MiniRedis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jobber/Projects/MiniRedis /home/jobber/Projects/MiniRedis /home/jobber/Projects/MiniRedis/build /home/jobber/Projects/MiniRedis/build /home/jobber/Projects/MiniRedis/build/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake "--color=$(COLOR)" ContinuousBuild
 .PHONY : CMakeFiles/ContinuousBuild.dir/depend
 

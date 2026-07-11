@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jobber/Projects/MiniRed/src/client.cpp" "CMakeFiles/EchoClient.dir/src/client.cpp.o" "gcc" "CMakeFiles/EchoClient.dir/src/client.cpp.o.d"
+  "/home/jobber/Projects/MiniRedis/src/client.cpp" "CMakeFiles/EchoClient.dir/src/client.cpp.o" "gcc" "CMakeFiles/EchoClient.dir/src/client.cpp.o.d"
   "" "EchoClient" "gcc" "CMakeFiles/EchoClient.dir/link.d"
   )
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jobber/Projects/MiniRed
+CMAKE_SOURCE_DIR = /home/jobber/Projects/MiniRedis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jobber/Projects/MiniRed/build
+CMAKE_BINARY_DIR = /home/jobber/Projects/MiniRedis/build
 
 # Utility rule file for NightlyUpdate.
 
@@ -85,6 +85,6 @@ CMakeFiles/NightlyUpdate.dir/clean:
 .PHONY : CMakeFiles/NightlyUpdate.dir/clean
 
 CMakeFiles/NightlyUpdate.dir/depend:
-	cd /home/jobber/Projects/MiniRed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jobber/Projects/MiniRed /home/jobber/Projects/MiniRed /home/jobber/Projects/MiniRed/build /home/jobber/Projects/MiniRed/build /home/jobber/Projects/MiniRed/build/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake "--color=$(COLOR)" NightlyUpdate
+	cd /home/jobber/Projects/MiniRedis/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jobber/Projects/MiniRedis /home/jobber/Projects/MiniRedis /home/jobber/Projects/MiniRedis/build /home/jobber/Projects/MiniRedis/build /home/jobber/Projects/MiniRedis/build/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake "--color=$(COLOR)" NightlyUpdate
 .PHONY : CMakeFiles/NightlyUpdate.dir/depend
 

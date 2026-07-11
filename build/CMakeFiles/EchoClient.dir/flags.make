@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jobber/Projects/MiniRed/include -I/home/jobber/Projects/MiniRed/cpp-httplib
+CXX_INCLUDES = -I/home/jobber/Projects/MiniRedis/include -I/home/jobber/Projects/MiniRedis/cpp-httplib
 
 CXX_FLAGS = -g
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.2.3)
-project(MiniRed VERSION 0.0.1 LANGUAGES C CXX)
+project(MiniRedis VERSION 0.0.1 LANGUAGES C CXX)
 
 include(CTest)
 enable_testing()

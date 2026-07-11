@@ -30,7 +30,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -85,7 +84,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -113,30 +111,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -183,7 +158,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -238,7 +212,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -266,30 +239,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -334,7 +284,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -389,7 +338,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -417,30 +365,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -486,7 +411,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -514,30 +438,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -566,7 +467,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/jobber/Projects/MiniRed/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+        /home/jobber/Projects/MiniRedis/build/CMakeFiles/4.2.3/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -598,7 +499,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -648,7 +548,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -676,30 +575,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -738,7 +614,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -788,7 +663,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -816,30 +690,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -878,7 +729,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -928,7 +778,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -956,30 +805,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -1018,7 +844,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -1068,7 +893,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -1096,30 +920,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -1158,7 +959,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -1208,7 +1008,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -1236,30 +1035,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -1298,7 +1074,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -1348,7 +1123,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -1376,30 +1150,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -1438,7 +1189,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -1488,7 +1238,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -1516,30 +1265,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -1578,7 +1304,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -1628,7 +1353,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -1656,30 +1380,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -1718,7 +1419,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -1766,7 +1466,6 @@ events:
       - "/usr/games/dlltool"
       - "/usr/local/games/dlltool"
       - "/usr/lib/wsl/lib/dlltool"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/dlltool"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/dlltool"
       - "/mnt/c/Python314/Scripts/dlltool"
       - "/mnt/c/Python314/dlltool"
@@ -1816,7 +1515,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -1844,30 +1542,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -1906,7 +1581,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -1956,7 +1630,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -1984,30 +1657,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -2046,7 +1696,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -2094,7 +1743,6 @@ events:
       - "/usr/games/tapi"
       - "/usr/local/games/tapi"
       - "/usr/lib/wsl/lib/tapi"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/tapi"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/tapi"
       - "/mnt/c/Python314/Scripts/tapi"
       - "/mnt/c/Python314/tapi"
@@ -2144,7 +1792,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -2172,30 +1819,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -2237,7 +1861,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -2285,7 +1908,6 @@ events:
       - "/usr/games/gcc-ar-15.2"
       - "/usr/local/games/gcc-ar-15.2"
       - "/usr/lib/wsl/lib/gcc-ar-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/gcc-ar-15.2"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/gcc-ar-15.2"
       - "/mnt/c/Python314/Scripts/gcc-ar-15.2"
       - "/mnt/c/Python314/gcc-ar-15.2"
@@ -2335,7 +1957,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -2363,30 +1984,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -2428,7 +2026,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -2476,7 +2073,6 @@ events:
       - "/usr/games/gcc-ranlib-15.2"
       - "/usr/local/games/gcc-ranlib-15.2"
       - "/usr/lib/wsl/lib/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/gcc-ranlib-15.2"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/gcc-ranlib-15.2"
       - "/mnt/c/Python314/Scripts/gcc-ranlib-15.2"
       - "/mnt/c/Python314/gcc-ranlib-15.2"
@@ -2526,7 +2122,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -2554,30 +2149,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -2629,7 +2201,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -2657,30 +2228,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -2726,7 +2274,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -2754,30 +2301,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -2806,7 +2330,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/jobber/Projects/MiniRed/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+        /home/jobber/Projects/MiniRedis/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -2841,7 +2365,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -2889,7 +2412,6 @@ events:
       - "/usr/games/gcc-ar-15.2"
       - "/usr/local/games/gcc-ar-15.2"
       - "/usr/lib/wsl/lib/gcc-ar-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/gcc-ar-15.2"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/gcc-ar-15.2"
       - "/mnt/c/Python314/Scripts/gcc-ar-15.2"
       - "/mnt/c/Python314/gcc-ar-15.2"
@@ -2939,7 +2461,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -2967,30 +2488,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -3032,7 +2530,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -3080,7 +2577,6 @@ events:
       - "/usr/games/gcc-ranlib-15.2"
       - "/usr/local/games/gcc-ranlib-15.2"
       - "/usr/lib/wsl/lib/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/gcc-ranlib-15.2"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/gcc-ranlib-15.2"
       - "/mnt/c/Python314/Scripts/gcc-ranlib-15.2"
       - "/mnt/c/Python314/gcc-ranlib-15.2"
@@ -3130,7 +2626,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -3158,30 +2653,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -3199,8 +2671,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-fDc3Sf"
-      binary: "/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-fDc3Sf"
+      source: "/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-M7CUiQ"
+      binary: "/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-M7CUiQ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3209,13 +2681,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-fDc3Sf'
+        Change Dir: '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-M7CUiQ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_94720/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_94720.dir/build.make CMakeFiles/cmTC_94720.dir/build
-        gmake[1]: Entering directory '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-fDc3Sf'
-        Building C object CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8784c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8784c.dir/build.make CMakeFiles/cmTC_8784c.dir/build
+        gmake[1]: Entering directory '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-M7CUiQ'
+        Building C object CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -3225,8 +2697,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94720.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_94720.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccg6FUNG.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8784c.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8784c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc41lUkU.s
         GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -3243,14 +2715,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: edd70396dcc669433a92073f97309866
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94720.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o /tmp/ccg6FUNG.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8784c.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o /tmp/cc41lUkU.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_94720
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94720.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8784c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8784c.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -3263,14 +2735,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94720' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_94720.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4cFMsu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_94720 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8784c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8784c.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccscHJJy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8784c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4cFMsu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_94720 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccscHJJy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8784c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94720' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_94720.'
-        /usr/bin/cc -v -Wl,-v CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o -o cmTC_94720
-        gmake[1]: Leaving directory '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-fDc3Sf'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8784c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8784c.'
+        /usr/bin/cc -v -Wl,-v CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o -o cmTC_8784c
+        gmake[1]: Leaving directory '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-M7CUiQ'
         
       exitCode: 0
   -
@@ -3305,13 +2777,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-fDc3Sf']
+        ignore line: [Change Dir: '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-M7CUiQ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_94720/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_94720.dir/build.make CMakeFiles/cmTC_94720.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-fDc3Sf']
-        ignore line: [Building C object CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8784c/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8784c.dir/build.make CMakeFiles/cmTC_8784c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-M7CUiQ']
+        ignore line: [Building C object CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -3321,8 +2793,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94720.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_94720.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccg6FUNG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8784c.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8784c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc41lUkU.s]
         ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -3339,14 +2811,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: edd70396dcc669433a92073f97309866]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94720.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o /tmp/ccg6FUNG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8784c.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o /tmp/cc41lUkU.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_94720]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94720.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8784c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8784c.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -3359,13 +2831,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94720' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_94720.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4cFMsu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_94720 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8784c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8784c.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccscHJJy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8784c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc4cFMsu.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccscHJJy.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -3383,7 +2855,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_94720] ==> ignore
+          arg [cmTC_8784c] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -3398,7 +2870,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -3413,7 +2885,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4cFMsu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_94720 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_94720.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccscHJJy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8784c /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_8784c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -3453,8 +2925,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-QK3H5p"
-      binary: "/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-QK3H5p"
+      source: "/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-OSoXYy"
+      binary: "/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-OSoXYy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3464,13 +2936,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-QK3H5p'
+        Change Dir: '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-OSoXYy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2b6ce/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2b6ce.dir/build.make CMakeFiles/cmTC_2b6ce.dir/build
-        gmake[1]: Entering directory '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-QK3H5p'
-        Building CXX object CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dded/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9dded.dir/build.make CMakeFiles/cmTC_9dded.dir/build
+        gmake[1]: Entering directory '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-OSoXYy'
+        Building CXX object CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -3480,8 +2952,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b6ce.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2b6ce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccXtxRT4.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9dded.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9dded.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccwFAIST.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -3502,14 +2974,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b6ce.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXtxRT4.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9dded.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwFAIST.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2b6ce
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b6ce.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_9dded
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dded.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -3522,14 +2994,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b6ce' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2b6ce.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmeR6BK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b6ce /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dded' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9dded.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccswWqEw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9dded /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmeR6BK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b6ce /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccswWqEw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9dded /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b6ce' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2b6ce.'
-        /usr/bin/c++ -v -Wl,-v CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b6ce
-        gmake[1]: Leaving directory '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-QK3H5p'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dded' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9dded.'
+        /usr/bin/c++ -v -Wl,-v CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9dded
+        gmake[1]: Leaving directory '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-OSoXYy'
         
       exitCode: 0
   -
@@ -3570,13 +3042,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-QK3H5p']
+        ignore line: [Change Dir: '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-OSoXYy']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2b6ce/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2b6ce.dir/build.make CMakeFiles/cmTC_2b6ce.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/jobber/Projects/MiniRed/build/CMakeFiles/CMakeScratch/TryCompile-QK3H5p']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dded/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9dded.dir/build.make CMakeFiles/cmTC_9dded.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jobber/Projects/MiniRedis/build/CMakeFiles/CMakeScratch/TryCompile-OSoXYy']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -3586,8 +3058,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b6ce.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2b6ce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccXtxRT4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9dded.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9dded.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccwFAIST.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -3608,14 +3080,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b6ce.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXtxRT4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9dded.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwFAIST.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2b6ce]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b6ce.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_9dded]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dded.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -3628,13 +3100,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b6ce' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2b6ce.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmeR6BK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b6ce /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dded' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9dded.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccswWqEw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9dded /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccmeR6BK.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccswWqEw.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -3652,7 +3124,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2b6ce] ==> ignore
+          arg [cmTC_9dded] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -3667,7 +3139,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -3678,7 +3150,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmeR6BK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b6ce /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2b6ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccswWqEw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9dded /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9dded.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -3738,7 +3210,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -3810,7 +3281,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -3838,30 +3308,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -3914,7 +3361,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -3979,7 +3425,6 @@ events:
       - "/usr/games/purify"
       - "/usr/local/games/purify"
       - "/usr/lib/wsl/lib/purify"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/purify"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/purify"
       - "/mnt/c/Python314/Scripts/purify"
       - "/mnt/c/Python314/purify"
@@ -4043,7 +3488,6 @@ events:
       - "/usr/games/valgrind"
       - "/usr/local/games/valgrind"
       - "/usr/lib/wsl/lib/valgrind"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/valgrind"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/valgrind"
       - "/mnt/c/Python314/Scripts/valgrind"
       - "/mnt/c/Python314/valgrind"
@@ -4107,7 +3551,6 @@ events:
       - "/usr/games/boundscheck"
       - "/usr/local/games/boundscheck"
       - "/usr/lib/wsl/lib/boundscheck"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/boundscheck"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/boundscheck"
       - "/mnt/c/Python314/Scripts/boundscheck"
       - "/mnt/c/Python314/boundscheck"
@@ -4171,7 +3614,6 @@ events:
       - "/usr/games/drmemory"
       - "/usr/local/games/drmemory"
       - "/usr/lib/wsl/lib/drmemory"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/drmemory"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/drmemory"
       - "/mnt/c/Python314/Scripts/drmemory"
       - "/mnt/c/Python314/drmemory"
@@ -4235,7 +3677,6 @@ events:
       - "/usr/games/cuda-memcheck"
       - "/usr/local/games/cuda-memcheck"
       - "/usr/lib/wsl/lib/cuda-memcheck"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/cuda-memcheck"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/cuda-memcheck"
       - "/mnt/c/Python314/Scripts/cuda-memcheck"
       - "/mnt/c/Python314/cuda-memcheck"
@@ -4299,7 +3740,6 @@ events:
       - "/usr/games/compute-sanitizer"
       - "/usr/local/games/compute-sanitizer"
       - "/usr/lib/wsl/lib/compute-sanitizer"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/compute-sanitizer"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/compute-sanitizer"
       - "/mnt/c/Python314/Scripts/compute-sanitizer"
       - "/mnt/c/Python314/compute-sanitizer"
@@ -4366,7 +3806,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -4394,30 +3833,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"
@@ -4465,7 +3881,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/"
       - "/mnt/c/Python314/Scripts/"
       - "/mnt/c/Python314/"
@@ -4537,7 +3952,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/ImageMagick-7.1.2-Q16-HDRI"
         - "/mnt/c/Python314/Scripts/"
         - "/mnt/c/Python314/"
@@ -4565,30 +3979,7 @@ events:
         - "/mnt/c/ProgramData/chocolatey/bin"
         - "/mnt/c/Program Files/Docker/Docker/resources/bin"
         - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Python314/Scripts/"
-        - "/mnt/c/Python314/"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/windows/system32"
-        - "/mnt/c/windows"
-        - "/mnt/c/windows/System32/Wbem"
-        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/windows/System32/OpenSSH/"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/HP/HP One Agent"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files (x86)/GnuPG/bin"
-        - "/mnt/c/Program Files/Apache/maven/apache-maven-3.9.11-bin/apache-maven-3.9.11/bin"
-        - "/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
-        - "/mnt/c/Program Files/dotnet/"
-        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "/mnt/c/Program Files/nodejs/"
-        - "/mnt/c/ProgramData/chocolatey/bin"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
         - "/mnt/c/Users/mfrey/scoop/shims"
         - "/mnt/c/wind"
         - "/mnt/c/Users/mfrey/scoop/apps/mpv/current"

@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.2.3)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "/home/jobber/Projects/MiniRed")
-set(CTEST_BINARY_DIRECTORY "/home/jobber/Projects/MiniRed/build")
+set(CTEST_SOURCE_DIRECTORY "/home/jobber/Projects/MiniRedis")
+set(CTEST_BINARY_DIRECTORY "/home/jobber/Projects/MiniRedis/build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "/usr/bin/git")

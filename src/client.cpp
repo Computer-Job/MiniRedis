@@ -1,5 +1,8 @@
+#include <chrono>
 #include <iostream>
+#include <string>
 #include "httplib.h"
+
 
 // HTTP
 httplib::Server svr;
@@ -10,22 +13,47 @@ int main()
 
     //HTTP
     httplib::Client cli("http://localhost:8080");
- 
+
+    for (int i = 0; i < 100000; i ++)
+    {
+        input = "SET id" + std::to_string(i) + " " + std::to_string(i);
+
+        const auto start = std::chrono::steady_clock::now();
+
+        cli.Post("/echo", input, "text/plain");
+
+        const auto end = std::chrono::steady_clock::now();
+        const auto elapsed = std::chrono::duration<double, std::milli>(end - start).count();
+
+        std::cout << "Retrieval time: " << elapsed << "ms\n";
+    }
+    std::cout << "\033[2J\033[H" << std::flush;
+    std::cout << "Database filled.\n";
+
     while (true) 
     {
-        std::cin >> input;
+        std::getline(std::cin, input);
 
         if (input == "Exit") 
             break;
 
-        if (auto res = cli.Post("/echo", input, "text/plain"))
+        const auto start = std::chrono::steady_clock::now();
+
+        auto res = cli.Post("/echo", input, "text/plain");
+
+        const auto end = std::chrono::steady_clock::now();
+
+        if (res)
         {
+            const auto elapsed = std::chrono::duration<double, std::milli>(end - start).count();
+
             std::cout << "Status: " << res->status << "\n";
             std::cout << res->body << "\n";
+            std::cout << "Retrieval time: " << elapsed << "ms\n";
         }
         else
         {
-            std::cout << "Request failed" << std::endl;
+            std::cout << "Request failed" << "\n";
         }
     }
 }
