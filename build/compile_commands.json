@@ -1,14 +1,14 @@
 [
 {
   "directory": "/home/jobber/Projects/MiniRedis/build",
-  "command": "/usr/bin/c++  -I/home/jobber/Projects/MiniRedis/include -I/home/jobber/Projects/MiniRedis/cpp-httplib -g -o CMakeFiles/EchoServer.dir/src/server.cpp.o -c /home/jobber/Projects/MiniRedis/src/server.cpp",
+  "command": "/usr/bin/c++  -I/home/jobber/Projects/MiniRedis/include -I/home/jobber/Projects/MiniRedis/cpp-httplib -g -o CMakeFiles/server.dir/src/server.cpp.o -c /home/jobber/Projects/MiniRedis/src/server.cpp",
   "file": "/home/jobber/Projects/MiniRedis/src/server.cpp",
-  "output": "CMakeFiles/EchoServer.dir/src/server.cpp.o"
+  "output": "CMakeFiles/server.dir/src/server.cpp.o"
 },
 {
   "directory": "/home/jobber/Projects/MiniRedis/build",
-  "command": "/usr/bin/c++  -I/home/jobber/Projects/MiniRedis/include -I/home/jobber/Projects/MiniRedis/cpp-httplib -g -o CMakeFiles/EchoClient.dir/src/client.cpp.o -c /home/jobber/Projects/MiniRedis/src/client.cpp",
+  "command": "/usr/bin/c++  -I/home/jobber/Projects/MiniRedis/include -I/home/jobber/Projects/MiniRedis/cpp-httplib -g -o CMakeFiles/client.dir/src/client.cpp.o -c /home/jobber/Projects/MiniRedis/src/client.cpp",
   "file": "/home/jobber/Projects/MiniRedis/src/client.cpp",
-  "output": "CMakeFiles/EchoClient.dir/src/client.cpp.o"
+  "output": "CMakeFiles/client.dir/src/client.cpp.o"
 }
 ]

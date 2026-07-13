@@ -26,8 +26,8 @@
 /home/jobber/Projects/MiniRedis/build/CMakeFiles/ContinuousCoverage.dir
 /home/jobber/Projects/MiniRedis/build/CMakeFiles/ContinuousMemCheck.dir
 /home/jobber/Projects/MiniRedis/build/CMakeFiles/ContinuousSubmit.dir
-/home/jobber/Projects/MiniRedis/build/CMakeFiles/EchoServer.dir
-/home/jobber/Projects/MiniRedis/build/CMakeFiles/EchoClient.dir
+/home/jobber/Projects/MiniRedis/build/CMakeFiles/server.dir
+/home/jobber/Projects/MiniRedis/build/CMakeFiles/client.dir
 /home/jobber/Projects/MiniRedis/build/CMakeFiles/test.dir
 /home/jobber/Projects/MiniRedis/build/CMakeFiles/edit_cache.dir
 /home/jobber/Projects/MiniRedis/build/CMakeFiles/rebuild_cache.dir

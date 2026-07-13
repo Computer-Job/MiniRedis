@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/EchoClient.dir/link.d CMakeFiles/EchoClient.dir/src/client.cpp.o -o EchoClient

@@ -63,13 +63,13 @@ CMAKE_BINARY_DIR = /home/jobber/Projects/MiniRedis/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/EchoServer.dir/all
-all: CMakeFiles/EchoClient.dir/all
+all: CMakeFiles/server.dir/all
+all: CMakeFiles/client.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/EchoServer.dir/codegen
-codegen: CMakeFiles/EchoClient.dir/codegen
+codegen: CMakeFiles/server.dir/codegen
+codegen: CMakeFiles/client.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -105,8 +105,8 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/EchoServer.dir/clean
-clean: CMakeFiles/EchoClient.dir/clean
+clean: CMakeFiles/server.dir/clean
+clean: CMakeFiles/client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -1006,68 +1006,68 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/EchoServer.dir
+# Target rules for target CMakeFiles/server.dir
 
 # All Build rule for target.
-CMakeFiles/EchoServer.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoServer.dir/build.make CMakeFiles/EchoServer.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoServer.dir/build.make CMakeFiles/EchoServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=3,4 "Built target EchoServer"
-.PHONY : CMakeFiles/EchoServer.dir/all
+CMakeFiles/server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=3,4 "Built target server"
+.PHONY : CMakeFiles/server.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/EchoServer.dir/rule: cmake_check_build_system
+CMakeFiles/server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jobber/Projects/MiniRedis/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/EchoServer.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jobber/Projects/MiniRedis/build/CMakeFiles 0
-.PHONY : CMakeFiles/EchoServer.dir/rule
+.PHONY : CMakeFiles/server.dir/rule
 
 # Convenience name for target.
-EchoServer: CMakeFiles/EchoServer.dir/rule
-.PHONY : EchoServer
+server: CMakeFiles/server.dir/rule
+.PHONY : server
 
 # codegen rule for target.
-CMakeFiles/EchoServer.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoServer.dir/build.make CMakeFiles/EchoServer.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=3,4 "Finished codegen for target EchoServer"
-.PHONY : CMakeFiles/EchoServer.dir/codegen
+CMakeFiles/server.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=3,4 "Finished codegen for target server"
+.PHONY : CMakeFiles/server.dir/codegen
 
 # clean rule for target.
-CMakeFiles/EchoServer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoServer.dir/build.make CMakeFiles/EchoServer.dir/clean
-.PHONY : CMakeFiles/EchoServer.dir/clean
+CMakeFiles/server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
+.PHONY : CMakeFiles/server.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/EchoClient.dir
+# Target rules for target CMakeFiles/client.dir
 
 # All Build rule for target.
-CMakeFiles/EchoClient.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoClient.dir/build.make CMakeFiles/EchoClient.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoClient.dir/build.make CMakeFiles/EchoClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=1,2 "Built target EchoClient"
-.PHONY : CMakeFiles/EchoClient.dir/all
+CMakeFiles/client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=1,2 "Built target client"
+.PHONY : CMakeFiles/client.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/EchoClient.dir/rule: cmake_check_build_system
+CMakeFiles/client.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jobber/Projects/MiniRedis/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/EchoClient.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jobber/Projects/MiniRedis/build/CMakeFiles 0
-.PHONY : CMakeFiles/EchoClient.dir/rule
+.PHONY : CMakeFiles/client.dir/rule
 
 # Convenience name for target.
-EchoClient: CMakeFiles/EchoClient.dir/rule
-.PHONY : EchoClient
+client: CMakeFiles/client.dir/rule
+.PHONY : client
 
 # codegen rule for target.
-CMakeFiles/EchoClient.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoClient.dir/build.make CMakeFiles/EchoClient.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=1,2 "Finished codegen for target EchoClient"
-.PHONY : CMakeFiles/EchoClient.dir/codegen
+CMakeFiles/client.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jobber/Projects/MiniRedis/build/CMakeFiles --progress-num=1,2 "Finished codegen for target client"
+.PHONY : CMakeFiles/client.dir/codegen
 
 # clean rule for target.
-CMakeFiles/EchoClient.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EchoClient.dir/build.make CMakeFiles/EchoClient.dir/clean
-.PHONY : CMakeFiles/EchoClient.dir/clean
+CMakeFiles/client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
+.PHONY : CMakeFiles/client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

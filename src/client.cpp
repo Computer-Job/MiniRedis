@@ -3,43 +3,44 @@
 #include <string>
 #include "httplib.h"
 
-
 // HTTP
 httplib::Server svr;
 
-int main() 
+int main()
 {
-    std::string input {};
+    std::string input{};
 
-    //HTTP
+    // HTTP
     httplib::Client cli("http://localhost:8080");
+    cli.set_keep_alive(true);
+    cli.set_tcp_nodelay(true);
 
-    for (int i = 0; i < 100000; i ++)
+    for (int i = 0; i < 100000; i++)
     {
         input = "SET id" + std::to_string(i) + " " + std::to_string(i);
 
         const auto start = std::chrono::steady_clock::now();
 
-        cli.Post("/echo", input, "text/plain");
+        cli.Post("/command", input, "text/plain");
 
         const auto end = std::chrono::steady_clock::now();
         const auto elapsed = std::chrono::duration<double, std::milli>(end - start).count();
 
         std::cout << "Retrieval time: " << elapsed << "ms\n";
     }
-    std::cout << "\033[2J\033[H" << std::flush;
+
     std::cout << "Database filled.\n";
 
-    while (true) 
+    while (true)
     {
         std::getline(std::cin, input);
 
-        if (input == "Exit") 
+        if (input == "Exit")
             break;
 
         const auto start = std::chrono::steady_clock::now();
 
-        auto res = cli.Post("/echo", input, "text/plain");
+        auto res = cli.Post("/command", input, "text/plain");
 
         const auto end = std::chrono::steady_clock::now();
 
