@@ -3,6 +3,19 @@
 #include <string>
 #include "httplib.h"
 
+std::string expandNewlines(std::string value)
+{
+    std::size_t pos = 0;
+
+    while ((pos = value.find("\\n", pos)) != std::string::npos)
+    {
+        value.replace(pos, 2, "\n");
+        pos ++;
+    }
+
+    return value;
+}
+
 // HTTP
 httplib::Server svr;
 
@@ -49,7 +62,7 @@ int main()
             const auto elapsed = std::chrono::duration<double, std::milli>(end - start).count();
 
             std::cout << "Status: " << res->status << "\n";
-            std::cout << res->body << "\n";
+            std::cout << expandNewlines(res->body) << "\n";
             std::cout << "Retrieval time: " << elapsed << "ms\n";
         }
         else

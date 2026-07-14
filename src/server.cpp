@@ -1,3 +1,4 @@
+#include <chrono>
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -6,33 +7,41 @@
 #include <memory>
 #include <optional>
 #include <unordered_map>
+#include <iomanip>
 #include "httplib.h"
+
+struct Entry
+{
+    std::string value{};
+    std::optional<int> time{}; // Time in terms of seconds
+    std::optional<std::chrono::steady_clock::time_point> expires_at{};
+};
 
 class StorageHandler
 {
 private:
-    std::unordered_map<std::string, std::string> storage;
+    std::unordered_map<std::string, Entry> storage;
     std::mutex storage_mutex;
 
 public:
     std::optional<std::string> getStorage(const std::string &key)
     {
         std::lock_guard<std::mutex> lock(storage_mutex);
-        auto entry = storage.find(key);
+        auto find = storage.find(key);
 
-        if (entry == storage.end())
+        if (find == storage.end())
         {
             return std::nullopt;
         }
 
-        return entry->second;
+        return find->second.value;
     };
 
     void setStorage(const std::string &key, const std::string &value)
     {
         {
             std::lock_guard<std::mutex> lock(storage_mutex);
-            storage.insert_or_assign(key, value);
+            storage.insert_or_assign(key, Entry{value});
         }
 
         return;
@@ -48,6 +57,32 @@ public:
         }
 
         return removed;
+    };
+
+    void expireStorage(const std::string &key, const int &time)
+    {
+        std::lock_guard<std::mutex> lock(storage_mutex);
+        auto find = storage.find(key);
+
+        if (find != storage.end())
+        {
+            find->second.time = time;
+        }
+
+        return;
+    };
+
+    std::optional<int> ttlStorage(const std::string &key)
+    {
+        std::lock_guard<std::mutex> lock(storage_mutex);
+        auto find = storage.find(key);
+
+        if (find == storage.end())
+        {
+            return std::nullopt;
+        }
+
+        return find->second.time;
     };
 };
 
@@ -83,48 +118,14 @@ private:
 
     void setCommand(const std::vector<std::string> &parts, httplib::Response &res)
     {
-        int value_index {2};
-        int i {value_index};
-        std::size_t size {parts.size()};
-        std::string value {};
-
-        if (size > value_index)
-        {
-            value = parts[value_index];
-        }
-        else
-        {
-            value = parts[size - 1];
-        }
-
-        if (size > value_index && parts[value_index].front() == '"') 
-        {
-            while (value.size() < 2 || parts[i].back() != '"')
-            {
-                i++;
-
-                if (i >= size)
-                {
-                    res.status = 400;
-                    res.set_content("End quote missing", "text/plain");
-
-                    return;
-                }
-
-                value += " " + parts[i];
-            }
-            value.erase(value.begin());
-            value.pop_back();
-        }
-
-        if (size - i != 1)
+        if (parts.size() != 3)
         {
             res.status = 400;
             res.set_content("Usage: SET <key> <value>", "text/plain");
 
             return;
         }
-        storage.setStorage(parts[1], value);
+        storage.setStorage(parts[1], parts[2]);
         res.status = 200;
         res.set_content("OK", "text/plain");
 
@@ -148,11 +149,72 @@ private:
         return;
     };
 
+    void expireCommand(const std::vector<std::string> &parts, httplib::Response &res)
+    {
+        if (parts.size() != 3)
+        {
+            res.status = 400;
+            res.set_content("Usage: EXPIRE <key> <time(seconds)>", "text/plain");
+
+            return;
+        }
+        try
+        {
+            std::size_t pos{};
+            int time = std::stoi(parts[2], &pos);
+
+            if (pos != parts[2].size())
+            {
+                res.status = 400;
+                res.set_content("Usage: EXPIRE <key> <time(seconds)>", "text/plain");
+
+                return;
+            }
+            storage.expireStorage(parts[1], time);
+            res.status = 200;
+            res.set_content("OK", "text/plain");
+
+            return;
+        }
+        catch (const std::exception &)
+        {
+            res.status = 400;
+            res.set_content("Usage: EXPIRE <key> <time(seconds)>", "text/plain");
+
+            return;
+        }
+    };
+
+    void ttlCommand(const std::vector<std::string> &parts, httplib::Response &res)
+    {
+        if (parts.size() != 2)
+        {
+            res.status = 400;
+            res.set_content("Usage: TTL <key>", "text/plain");
+
+            return;
+        }
+        auto get = storage.ttlStorage(parts[1]);
+
+        if (!get.has_value())
+        {
+            res.status = 404;
+            res.set_content("(nil)", "text/plain");
+
+            return;
+        }
+        res.status = 200;
+        res.set_content(std::to_string(*get), "text/plain");
+
+        return;
+    };
+
     const std::unordered_map<std::string, Handler> handlers{
         {"GET", &CommandHandler::getCommand},
         {"SET", &CommandHandler::setCommand},
         {"DEL", &CommandHandler::delCommand},
-    };
+        {"EXPIRE", &CommandHandler::expireCommand},
+        {"TTL", &CommandHandler::ttlCommand}};
 
     void executeCommand(const std::vector<std::string> &parts, httplib::Response &res)
     {
@@ -183,7 +245,32 @@ public:
         while (stream >> part)
         {
             parts.push_back(part);
+            stream >> std::ws;
+
+            if (stream.peek() == '"')
+            {
+                if (!(stream >> std::quoted(part)))
+                {
+                    res.status = 400;
+                    res.set_content("Invalid string syntax", "text/plain");
+
+                    return;
+                }
+                parts.push_back(part);
+
+                stream >> std::ws;
+
+                if (stream.peek() != std::char_traits<char>::eof())
+                {
+                    res.status = 400;
+                    res.set_content("Unexpected argument", "text/plain");
+
+                    return;
+                }
+                break;
+            }
         }
+
         if (parts.empty())
         {
             res.status = 400;
@@ -191,7 +278,6 @@ public:
 
             return;
         }
-        const std::string &command = parts[0];
 
         executeCommand(parts, res);
 
