@@ -8,6 +8,7 @@
 #include <optional>
 #include <unordered_map>
 #include <iomanip>
+
 #include "httplib.h"
 
 struct Entry
@@ -235,6 +236,19 @@ private:
     };
 
 public:
+    void listCommand(httplib::Response &res)
+    {
+        std::string list {};
+
+        for (const auto& [command, handler] : handlers)
+        {
+            list += command + " ";
+        }
+
+        res.status = 200;
+        res.set_content(list, "text/plain");
+    }
+
     void parseCommand(const httplib::Request &req, httplib::Response &res)
     {
         std::vector<std::string> parts{};
@@ -291,6 +305,24 @@ httplib::Server svr;
 int main()
 {
     CommandHandler handler;
+
+    svr.Get("/list", [&handler](const httplib::Request &, httplib::Response &res)
+             { handler.listCommand(res); });
+
+    svr.Post("/test", [&handler](const httplib::Request &req, httplib::Response &res)
+             {
+                const std::string& command = req.get_param_value("command"); 
+                const std::string& key = req.get_param_value("key");
+                const std::vector<std::string>& values = req.get_param_values("value");
+
+                std::string output = command + " " + key;
+
+                for (const std::string& value : values)
+                {
+                    output += " " + value;
+                }
+                res.status = 200; 
+                res.set_content(output, "text/plain"); });
 
     svr.Post("/command", [&handler](const httplib::Request &req, httplib::Response &res)
              { handler.parseCommand(req, res); });
