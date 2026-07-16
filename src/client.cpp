@@ -4,6 +4,7 @@
 #include <unordered_set>
 
 #include "httplib.h"
+#include "parser.h"
 #include "lexer.h"
 
 std::string expandNewlines(std::string value)
@@ -24,32 +25,28 @@ httplib::Server svr;
 
 int main()
 {
-    std::unordered_set<std::string> commands;
+    std::unordered_set<std::string> commands{};
 
     // HTTP
     httplib::Client client("http://localhost:8080");
     client.set_keep_alive(true);
     client.set_tcp_nodelay(true);
 
+    auto res = client.Get("/list");
+
+    if (!res)
     {
-        auto res = client.Get("/list");
+        std::cout << "Request failed" << "\n";
 
-        if (!res)
-        {
-            std::cout << "Request failed" << "\n";
-
-            return 0;
-        }
-        std::istringstream stream(res->body);
-        std::string command;
-
-        while (stream >> command)
-        {
-            commands.insert(command);
-        }
+        return 0;
     }
+    std::istringstream stream(res->body);
+    std::string command;
 
-    httplib::Params params {};
+    while (stream >> command)
+    {
+        commands.insert(command);
+    }
 
     std::string input{};
     std::getline(std::cin, input);
@@ -62,6 +59,12 @@ int main()
 
     for (const std::string& token : tokens)
         std::cout << token << "\n";
+
+    Parser parser;
+
+    httplib::Params params {parser.Parse(tokens, commands)};
+
+    std::cout << params.size() << "\n";
 
     return 0;
 }
