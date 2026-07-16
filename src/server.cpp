@@ -11,9 +11,9 @@
 
 #include "httplib.h"
 
-struct Entry
+struct Value
 {
-    std::string value{};
+    std::string data{};
     std::optional<int> time{}; // Time in terms of seconds
     std::optional<std::chrono::steady_clock::time_point> expires_at{};
 };
@@ -21,7 +21,7 @@ struct Entry
 class StorageHandler
 {
 private:
-    std::unordered_map<std::string, Entry> storage;
+    std::unordered_map<std::string, Value> storage;
     std::mutex storage_mutex;
 
 public:
@@ -35,14 +35,14 @@ public:
             return std::nullopt;
         }
 
-        return find->second.value;
+        return find->second.data;
     };
 
     void setStorage(const std::string &key, const std::string &value)
     {
         {
             std::lock_guard<std::mutex> lock(storage_mutex);
-            storage.insert_or_assign(key, Entry{value});
+            storage.insert_or_assign(key, Value{value});
         }
 
         return;
@@ -214,7 +214,7 @@ private:
         {"GET", &CommandHandler::getCommand},
         {"SET", &CommandHandler::setCommand},
         {"DEL", &CommandHandler::delCommand},
-        {"EXPIRE", &CommandHandler::expireCommand},
+        {"EXP", &CommandHandler::expireCommand},
         {"TTL", &CommandHandler::ttlCommand}};
 
     void executeCommand(const std::vector<std::string> &parts, httplib::Response &res)
@@ -251,51 +251,96 @@ public:
 
     void parseCommand(const httplib::Request &req, httplib::Response &res)
     {
-        std::vector<std::string> parts{};
-        std::string part{};
+        std::vector<std::vector<std::string>> requests;
+        int count {0};
+        size_t size = req.params.size();
+        std::string num {std::to_string(count)};
+        std::string command {"command" + num};
 
-        std::istringstream stream(req.body);
+        requests.resize(size);
 
-        while (stream >> part)
+        std::cout << "260\n";
+
+        while (count < size && req.has_param(command))
         {
-            parts.push_back(part);
-            stream >> std::ws;
+            requests[count].push_back(req.get_param_value(command));
+            std::string key {"key" + num};
+            std::string value {"value" + num};
 
-            if (stream.peek() == '"')
+            if (req.has_param(key))
             {
-                if (!(stream >> std::quoted(part)))
-                {
-                    res.status = 400;
-                    res.set_content("Invalid string syntax", "text/plain");
+                requests[count].push_back(req.get_param_value(key));
+            }
 
-                    return;
-                }
-                parts.push_back(part);
+            if (req.has_param(value))
+            {
+                requests[count].push_back(req.get_param_value(value));
+            }
+            
+            count++;
+            num = std::to_string(count);
+            command = "command" + num;
+        }
+        std::cout << "281\n";
+        std::string temporary {};
 
-                stream >> std::ws;
-
-                if (stream.peek() != std::char_traits<char>::eof())
-                {
-                    res.status = 400;
-                    res.set_content("Unexpected argument", "text/plain");
-
-                    return;
-                }
-                break;
+        for (const auto &inputs : requests)
+        {
+            for (const auto &input : inputs)
+            {
+                temporary += input + " ";
             }
         }
 
-        if (parts.empty())
-        {
-            res.status = 400;
-            res.set_content("No command provided", "text/plain");
+        std::cout << temporary << "\n";
+        res.status = 200;
+        res.set_content(temporary, "text/plain");
 
-            return;
-        }
+        // std::vector<std::string> parts{};
+        // std::string part{};
 
-        executeCommand(parts, res);
+        // std::istringstream stream(req.body);
 
-        return;
+        // while (stream >> part)
+        // {
+        //     parts.push_back(part);
+        //     stream >> std::ws;
+
+        //     if (stream.peek() == '"')
+        //     {
+        //         if (!(stream >> std::quoted(part)))
+        //         {
+        //             res.status = 400;
+        //             res.set_content("Invalid string syntax", "text/plain");
+
+        //             return;
+        //         }
+        //         parts.push_back(part);
+
+        //         stream >> std::ws;
+
+        //         if (stream.peek() != std::char_traits<char>::eof())
+        //         {
+        //             res.status = 400;
+        //             res.set_content("Unexpected argument", "text/plain");
+
+        //             return;
+        //         }
+        //         break;
+        //     }
+        // }
+
+        // if (parts.empty())
+        // {
+        //     res.status = 400;
+        //     res.set_content("No command provided", "text/plain");
+
+        //     return;
+        // }
+
+        // executeCommand(parts, res);
+
+        // return;
     };
 };
 

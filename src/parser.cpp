@@ -3,11 +3,11 @@
 httplib::Params Parser::Parse(const std::vector<std::string>& tokens, const std::unordered_set<std::string>& commands)
 {
     httplib::Params params {};
-    int count = 0;
-    std::string num = std::to_string(count); 
+    int count {0};
+    std::string num {std::to_string(count)}; 
     std::string type {"command" + num};
     
-    for (std::string token : tokens)
+    for (const std::string& token : tokens)
     {
         params.emplace(type, token);
 

@@ -31,8 +31,40 @@ int main()
     httplib::Client client("http://localhost:8080");
     client.set_keep_alive(true);
     client.set_tcp_nodelay(true);
+    {
+        auto res = client.Get("/list");
 
-    auto res = client.Get("/list");
+        if (!res)
+        {
+            std::cout << "Request failed" << "\n";
+
+            return 0;
+        }
+        std::istringstream stream(res->body);
+        std::string command;
+
+        while (stream >> command)
+        {
+            commands.insert(command);
+        }
+    }
+    std::string input{};
+    std::getline(std::cin, input);
+
+    Lexer lexer;
+    std::vector<std::string> tokens {lexer.Lex(input)};
+
+    if (tokens.empty())
+        std::cout << lexer.getAlert() << "\n";
+
+    // for (const std::string& token : tokens)
+    //     std::cout << token << "\n";
+
+    Parser parser;
+
+    httplib::Params params {parser.Parse(tokens, commands)};
+
+    auto res = client.Post("/command", params);
 
     if (!res)
     {
@@ -45,26 +77,8 @@ int main()
 
     while (stream >> command)
     {
-        commands.insert(command);
+        std::cout << command << " ";
     }
-
-    std::string input{};
-    std::getline(std::cin, input);
-
-    Lexer lexer;
-    std::vector<std::string> tokens {lexer.Lex(input)};
-
-    if (tokens.empty())
-        std::cout << lexer.getAlert() << "\n";
-
-    for (const std::string& token : tokens)
-        std::cout << token << "\n";
-
-    Parser parser;
-
-    httplib::Params params {parser.Parse(tokens, commands)};
-
-    std::cout << params.size() << "\n";
 
     return 0;
 }
