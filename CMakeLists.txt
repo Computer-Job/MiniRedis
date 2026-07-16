@@ -10,6 +10,7 @@ add_executable(server
 
 add_executable(client
     src/client.cpp
+    src/lexer.cpp
 )
 
 target_include_directories(server PRIVATE

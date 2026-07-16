@@ -347,4 +347,5 @@ CMakeFiles/client.dir/src/client.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
  /usr/include/c++/15/thread /usr/include/c++/15/bits/std_thread.h \
  /usr/include/c++/15/bits/this_thread_sleep.h /usr/include/c++/15/utility \
- /usr/include/c++/15/bits/stl_relops.h
+ /usr/include/c++/15/bits/stl_relops.h \
+ /home/jobber/Projects/MiniRedis/include/lexer.h

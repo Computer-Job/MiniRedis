@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jobber/Projects/MiniRedis/src/client.cpp" "CMakeFiles/client.dir/src/client.cpp.o" "gcc" "CMakeFiles/client.dir/src/client.cpp.o.d"
+  "/home/jobber/Projects/MiniRedis/src/lexer.cpp" "CMakeFiles/client.dir/src/lexer.cpp.o" "gcc" "CMakeFiles/client.dir/src/lexer.cpp.o.d"
   "" "client" "gcc" "CMakeFiles/client.dir/link.d"
   )
 

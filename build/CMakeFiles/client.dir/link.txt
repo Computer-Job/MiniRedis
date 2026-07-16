@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/client.dir/link.d CMakeFiles/client.dir/src/client.cpp.o -o client
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/client.dir/link.d CMakeFiles/client.dir/src/client.cpp.o CMakeFiles/client.dir/src/lexer.cpp.o -o client

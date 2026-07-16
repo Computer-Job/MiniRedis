@@ -10,5 +10,11 @@
   "command": "/usr/bin/c++  -I/home/jobber/Projects/MiniRedis/include -I/home/jobber/Projects/MiniRedis/cpp-httplib -g -o CMakeFiles/client.dir/src/client.cpp.o -c /home/jobber/Projects/MiniRedis/src/client.cpp",
   "file": "/home/jobber/Projects/MiniRedis/src/client.cpp",
   "output": "CMakeFiles/client.dir/src/client.cpp.o"
+},
+{
+  "directory": "/home/jobber/Projects/MiniRedis/build",
+  "command": "/usr/bin/c++  -I/home/jobber/Projects/MiniRedis/include -I/home/jobber/Projects/MiniRedis/cpp-httplib -g -o CMakeFiles/client.dir/src/lexer.cpp.o -c /home/jobber/Projects/MiniRedis/src/lexer.cpp",
+  "file": "/home/jobber/Projects/MiniRedis/src/lexer.cpp",
+  "output": "CMakeFiles/client.dir/src/lexer.cpp.o"
 }
 ]
