@@ -129,7 +129,53 @@ CMakeFiles/client.dir/src/parser.cpp.o: \
  /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/iostream \
+ /usr/include/c++/15/ostream /usr/include/c++/15/bits/ostream.h \
+ /usr/include/c++/15/ios /usr/include/c++/15/exception \
+ /usr/include/c++/15/bits/exception_ptr.h \
+ /usr/include/c++/15/bits/cxxabi_init_exception.h \
+ /usr/include/c++/15/typeinfo /usr/include/c++/15/bits/nested_exception.h \
+ /usr/include/c++/15/bits/ios_base.h /usr/include/c++/15/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/linux/sched/types.h /usr/include/linux/types.h \
+ /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/15/bits/locale_classes.h \
+ /usr/include/c++/15/bits/locale_classes.tcc \
+ /usr/include/c++/15/system_error \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
+ /usr/include/c++/15/stdexcept /usr/include/c++/15/streambuf \
+ /usr/include/c++/15/bits/streambuf.tcc \
+ /usr/include/c++/15/bits/basic_ios.h \
+ /usr/include/c++/15/bits/locale_facets.h /usr/include/c++/15/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_base.h \
+ /usr/include/c++/15/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h \
+ /usr/include/c++/15/bits/locale_facets.tcc \
+ /usr/include/c++/15/bits/basic_ios.tcc \
+ /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
+ /usr/include/c++/15/bits/istream.tcc \
  /home/jobber/Projects/MiniRedis/cpp-httplib/httplib.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -139,13 +185,7 @@ CMakeFiles/client.dir/src/parser.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
  /usr/include/x86_64-linux-gnu/asm/socket.h \
- /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/asm-generic/socket.h \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
@@ -160,7 +200,6 @@ CMakeFiles/client.dir/src/parser.cpp.o: \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/signal.h \
@@ -199,19 +238,7 @@ CMakeFiles/client.dir/src/parser.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/res_state.h \
  /usr/include/c++/15/csignal /usr/include/netinet/tcp.h \
  /usr/include/poll.h /usr/include/x86_64-linux-gnu/sys/poll.h \
- /usr/include/x86_64-linux-gnu/bits/poll.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/linux/sched/types.h /usr/include/linux/types.h \
- /usr/include/x86_64-linux-gnu/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/poll.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
@@ -236,44 +263,20 @@ CMakeFiles/client.dir/src/parser.cpp.o: \
  /usr/include/c++/15/limits /usr/include/c++/15/ctime \
  /usr/include/c++/15/bits/parse_numbers.h /usr/include/c++/15/climits \
  /usr/include/c++/15/condition_variable \
- /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
  /usr/include/c++/15/bits/std_mutex.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
  /usr/include/c++/15/bits/unique_lock.h \
  /usr/include/c++/15/bits/shared_ptr.h \
- /usr/include/c++/15/bits/shared_ptr_base.h /usr/include/c++/15/typeinfo \
+ /usr/include/c++/15/bits/shared_ptr_base.h \
  /usr/include/c++/15/bits/allocated_ptr.h \
  /usr/include/c++/15/bits/unique_ptr.h \
- /usr/include/c++/15/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/atomic_word.h \
- /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/15/ext/concurrence.h /usr/include/c++/15/exception \
- /usr/include/c++/15/bits/exception_ptr.h \
- /usr/include/c++/15/bits/cxxabi_init_exception.h \
- /usr/include/c++/15/bits/nested_exception.h /usr/include/c++/15/cstring \
+ /usr/include/c++/15/ext/concurrence.h /usr/include/c++/15/cstring \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/linux/falloc.h /usr/include/linux/openat2.h \
  /usr/include/x86_64-linux-gnu/bits/openat2.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
- /usr/include/c++/15/fstream /usr/include/c++/15/istream \
- /usr/include/c++/15/ios /usr/include/c++/15/bits/ios_base.h \
- /usr/include/c++/15/bits/locale_classes.h \
- /usr/include/c++/15/bits/locale_classes.tcc \
- /usr/include/c++/15/system_error /usr/include/c++/15/stdexcept \
- /usr/include/c++/15/streambuf /usr/include/c++/15/bits/streambuf.tcc \
- /usr/include/c++/15/bits/basic_ios.h \
- /usr/include/c++/15/bits/locale_facets.h /usr/include/c++/15/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_base.h \
- /usr/include/c++/15/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h \
- /usr/include/c++/15/bits/locale_facets.tcc \
- /usr/include/c++/15/bits/basic_ios.tcc /usr/include/c++/15/ostream \
- /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/bits/ostream.tcc \
- /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/bits/codecvt.h \
+ /usr/include/c++/15/fstream /usr/include/c++/15/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++io.h \
  /usr/include/c++/15/bits/fstream.tcc /usr/include/c++/15/functional \
@@ -287,10 +290,10 @@ CMakeFiles/client.dir/src/parser.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/15/bits/locale_facets_nonio.tcc \
  /usr/include/c++/15/bits/locale_conv.h \
  /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/sstream \
- /usr/include/c++/15/bits/sstream.tcc /usr/include/c++/15/iostream \
- /usr/include/c++/15/list /usr/include/c++/15/bits/stl_list.h \
- /usr/include/c++/15/bits/list.tcc /usr/include/c++/15/map \
- /usr/include/c++/15/bits/stl_tree.h /usr/include/c++/15/bits/stl_map.h \
+ /usr/include/c++/15/bits/sstream.tcc /usr/include/c++/15/list \
+ /usr/include/c++/15/bits/stl_list.h /usr/include/c++/15/bits/list.tcc \
+ /usr/include/c++/15/map /usr/include/c++/15/bits/stl_tree.h \
+ /usr/include/c++/15/bits/stl_map.h \
  /usr/include/c++/15/bits/stl_multimap.h /usr/include/c++/15/memory \
  /usr/include/c++/15/bits/stl_raw_storage_iter.h \
  /usr/include/c++/15/bits/align.h \

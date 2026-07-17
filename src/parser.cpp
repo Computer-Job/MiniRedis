@@ -7,17 +7,11 @@ httplib::Params Parser::Parse(const std::vector<std::string>& tokens, const std:
     std::string num {std::to_string(count)}; 
     std::string type {"command" + num};
     
-    for (const std::string& token : tokens)
+    for (const std::string &token : tokens)
     {
-        params.emplace(type, token);
-
-        if (type == "command" + num)
+        if (type == "undetermined")
         {
-            type = "key" + num;
-        }
-        else if (type == "key" + num)
-        {
-            auto find = commands.find(token);
+            const auto &find = commands.find(token);
 
             if (find == commands.end())
             {
@@ -26,14 +20,24 @@ httplib::Params Parser::Parse(const std::vector<std::string>& tokens, const std:
             else
             {
                 count++;
-                std::string num = std::to_string(count); 
+                num = std::to_string(count); 
                 type = "command" + num;
             }
+        }
+        params.emplace(type, token);
+
+        if (type == "command" + num)
+        {
+            type = "key" + num;
+        }
+        else if (type == "key" + num)
+        {
+            type = "undetermined";
         }
         else if (type == "value" + num)
         {
             count++;
-            std::string num = std::to_string(count); 
+            num = std::to_string(count); 
             type = "command" + num;
         }
     }

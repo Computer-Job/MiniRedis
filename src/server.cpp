@@ -8,6 +8,7 @@
 #include <optional>
 #include <unordered_map>
 #include <iomanip>
+#include <utility>
 
 #include "httplib.h"
 
@@ -219,7 +220,7 @@ private:
 
     void executeCommand(const std::vector<std::string> &parts, httplib::Response &res)
     {
-        std::string command = parts[0];
+        const std::string &command = parts[0];
         auto it = handlers.find(command);
 
         if (it == handlers.end())
@@ -257,91 +258,48 @@ public:
         std::string num {std::to_string(count)};
         std::string command {"command" + num};
 
-        requests.resize(size);
-
-        std::cout << "260\n";
-
-        while (count < size && req.has_param(command))
+        while (req.has_param(command))
         {
-            requests[count].push_back(req.get_param_value(command));
+            requests.emplace_back();
+            requests.back().push_back(req.get_param_value(command));
             std::string key {"key" + num};
             std::string value {"value" + num};
 
             if (req.has_param(key))
             {
-                requests[count].push_back(req.get_param_value(key));
+                requests.back().push_back(req.get_param_value(key));
             }
 
             if (req.has_param(value))
             {
-                requests[count].push_back(req.get_param_value(value));
-            }
-            
+                requests.back().push_back(req.get_param_value(value));
+            }     
             count++;
             num = std::to_string(count);
             command = "command" + num;
         }
-        std::cout << "281\n";
-        std::string temporary {};
 
-        for (const auto &inputs : requests)
+        std::string output;
+        bool fail = false;
+
+        for (const auto &request : requests)
         {
-            for (const auto &input : inputs)
-            {
-                temporary += input + " ";
-            }
+            httplib::Response command_res;
+            executeCommand(request, command_res);
+
+            output += std::to_string(command_res.status);
+            output += " ";
+            output += command_res.body;
+            output += "\\n";
+
+            if (command_res.status >= 400)
+                fail = true;
         }
-
-        std::cout << temporary << "\n";
-        res.status = 200;
-        res.set_content(temporary, "text/plain");
-
-        // std::vector<std::string> parts{};
-        // std::string part{};
-
-        // std::istringstream stream(req.body);
-
-        // while (stream >> part)
-        // {
-        //     parts.push_back(part);
-        //     stream >> std::ws;
-
-        //     if (stream.peek() == '"')
-        //     {
-        //         if (!(stream >> std::quoted(part)))
-        //         {
-        //             res.status = 400;
-        //             res.set_content("Invalid string syntax", "text/plain");
-
-        //             return;
-        //         }
-        //         parts.push_back(part);
-
-        //         stream >> std::ws;
-
-        //         if (stream.peek() != std::char_traits<char>::eof())
-        //         {
-        //             res.status = 400;
-        //             res.set_content("Unexpected argument", "text/plain");
-
-        //             return;
-        //         }
-        //         break;
-        //     }
-        // }
-
-        // if (parts.empty())
-        // {
-        //     res.status = 400;
-        //     res.set_content("No command provided", "text/plain");
-
-        //     return;
-        // }
-
-        // executeCommand(parts, res);
-
-        // return;
-    };
+        res.status = fail ? 207 : 200;
+        res.set_content(std::move(output), "text/plain");
+        
+        return;
+    }
 };
 
 // HTTP

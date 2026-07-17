@@ -51,20 +51,30 @@ int main()
     std::string input{};
     std::getline(std::cin, input);
 
+    const auto start = std::chrono::steady_clock::now();
+
     Lexer lexer;
     std::vector<std::string> tokens {lexer.Lex(input)};
 
     if (tokens.empty())
         std::cout << lexer.getAlert() << "\n";
 
-    // for (const std::string& token : tokens)
-    //     std::cout << token << "\n";
+    const auto parser_start = std::chrono::steady_clock::now();
 
     Parser parser;
 
     httplib::Params params {parser.Parse(tokens, commands)};
 
+    const auto server_start = std::chrono::steady_clock::now();
+
     auto res = client.Post("/command", params);
+
+    const auto end = std::chrono::steady_clock::now();
+
+    const std::chrono::duration<double, std::milli> lexer_time = parser_start - start;
+    const std::chrono::duration<double, std::milli> parser_time = server_start - parser_start;
+    const std::chrono::duration<double, std::milli> server_time = end - server_start;
+    const std::chrono::duration<double, std::milli> total_elapsed = end - start;
 
     if (!res)
     {
@@ -72,13 +82,12 @@ int main()
 
         return 0;
     }
-    std::istringstream stream(res->body);
-    std::string command;
-
-    while (stream >> command)
-    {
-        std::cout << command << " ";
-    }
+    std::cout << expandNewlines(res->body);
+    std::cout << std::to_string(res->status) << "\n";
+    std::cout << "Lexer speed:  " << lexer_time.count() << "ms\n";
+    std::cout << "Parser speed: " << parser_time.count() << "ms\n";
+    std::cout << "Server speed: " << server_time.count() << "ms\n";
+    std::cout << "Total speed:  " << total_elapsed.count() << "ms\n";
 
     return 0;
 }
